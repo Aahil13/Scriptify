@@ -16,4 +16,4 @@ sudo mv $DIR/config /etc/ssh/sshd_config
 
 # Copy the private key from .ssh/authorized_keys to user
 sudo mkdir /home/testUser/.ssh
-sudo chown testUser:testUser -R /home/testUser/.shh
+sudo chown testUser:testUser -R /home/testUser/.ssh
