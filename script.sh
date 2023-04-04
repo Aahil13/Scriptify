@@ -19,3 +19,6 @@ sudo mkdir /home/testUser/.ssh
 sudo chown testUser:testUser -R /home/testUser/.ssh
 sudo cp ~/.ssh/authorized_keys /home/testUser/.ssh/authorized_keys
 sudo chown testUser:testUser -R /home/testUser/.ssh/authorized_keys
+
+# Restart ssh service
+sudo systemctl restart ssh
