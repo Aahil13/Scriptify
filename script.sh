@@ -13,3 +13,6 @@ sudo usermod -aG sudo testUser
 
 # Edit configuration file
 sudo mv $DIR/config /etc/ssh/sshd_config
+
+# Copy the private key from .ssh/authorized_keys to user
+sudo mkdir /home/testUser/.ssh
