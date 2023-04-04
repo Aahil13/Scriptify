@@ -3,25 +3,25 @@
 DIR=$(pwd)
 
 # Create User
-sudo useradd testUser -m
+sudo useradd serviceUser -m
 
 # Set password for new user
-sudo passwd testUser
+sudo passwd serviceUser
 
 # Add user to sudo group
-sudo usermod -aG sudo testUser
+sudo usermod -aG sudo serviceUser
 
 # Change default shell to bash
-sudo usermod -s /bin/bash testUser
+sudo usermod -s /bin/bash serviceUser
 
 # Edit configuration file
 sudo mv $DIR/config /etc/ssh/sshd_config
 
 # Copy the private key from .ssh/authorized_keys to user
-sudo mkdir /home/testUser/.ssh
-sudo chown testUser:testUser -R /home/testUser/.ssh
-sudo cp ~/.ssh/authorized_keys /home/testUser/.ssh/authorized_keys
-sudo chown testUser:testUser -R /home/testUser/.ssh/authorized_keys
+sudo mkdir /home/serviceUser/.ssh
+sudo chown serviceUser:serviceUser -R /home/serviceUser/.ssh
+sudo cp ~/.ssh/authorized_keys /home/serviceUser/.ssh/authorized_keys
+sudo chown serviceUser:serviceUser -R /home/serviceUser/.ssh/authorized_keys
 
 # Restart ssh service
 sudo systemctl restart ssh

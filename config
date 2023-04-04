@@ -35,7 +35,7 @@ Include /etc/ssh/sshd_config.d/*.conf
 #MaxSessions 10
 
 PubkeyAuthentication yes
-AllowUsers testUser lamp
+AllowUsers serviceUser
 
 # Expect .ssh/authorized_keys2 to be disregarded by default in future.
 #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
