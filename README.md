@@ -1,6 +1,10 @@
 # NewUser_Script.sh 👩🏿‍💻
-<div style="text-align=center">
-https://img.shields.io/badge/-Bash-blue https://img.shields.io/badge/License-MIT-lightgrey
+<div align="center">
+
+![Bash](https://img.shields.io/badge/-Bash-blue)
+
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 </div>
 
 Hello 👋🏿
