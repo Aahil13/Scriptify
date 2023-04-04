@@ -15,33 +15,22 @@ On Linux servers, it is adviced to have various users that run their individual 
 
 ## How to use 🛠
 
-This script will create a new user called `serviceUser`. You can change this name to whatever service you want, and also alter it in the `config` file.
+This project contains various folders for different Operating systems. To use this project, follow the step below:
 
-To use this project, follow the steps below:
-
-- Clone this Repository
-- Navigate to the folder
+- Clone the Repository
   ```
-   cd NewUser-Script
+  git clone https://github.com/Aahil13/NewUser-Script.git
   ```
-- Run the script
+- Change directory to project and desired Operating system
   ```
-  bash script.sh
+  cd NewUser-Script/<desired-folder>
   ```
-
-You can switch into the `serviceUser` using:
-```
-su - serviceUser
-```
-
-Alternatively, you can ssh into the server directly from your local machine using:
-```
-ssh serviceUser@<ip-address>
-```
+- Apply the steps stated at the desired project's README.md file
 
 ## Contributing
 
 To contribute to this project, head over to the `CONTRIBUTING.md` file for more information.
+
 
 
      
