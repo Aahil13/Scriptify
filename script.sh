@@ -1,5 +1,7 @@
 #!/bin/sh
 
+DIR=$(pwd)
+
 # Create User
 sudo useradd testUser -m
 
@@ -10,4 +12,4 @@ sudo passwd testUser
 sudo usermod -aG sudo testUser
 
 # Edit configuration file
-sudo mv /config /etc/ssh/sshd_config
+sudo mv $DIR/config /etc/ssh/sshd_config
