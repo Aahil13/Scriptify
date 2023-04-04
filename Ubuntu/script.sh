@@ -15,7 +15,7 @@ sudo usermod -aG sudo serviceUser
 sudo usermod -s /bin/bash serviceUser
 
 # Edit configuration file
-sudo mv $DIR/config /etc/ssh/sshd_config
+sudo mv "$DIR"/config /etc/ssh/sshd_config
 
 # Copy the private key from .ssh/authorized_keys to user
 sudo mkdir /home/serviceUser/.ssh
