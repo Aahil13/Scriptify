@@ -18,3 +18,4 @@ sudo mv $DIR/config /etc/ssh/sshd_config
 sudo mkdir /home/testUser/.ssh
 sudo chown testUser:testUser -R /home/testUser/.ssh
 sudo cp ~/.ssh/authorized_keys /home/testUser/.ssh/authorized_keys
+sudo chown testUser:testUser -R /home/testUser/.ssh/authorized_keys
