@@ -1,4 +1,4 @@
-# #!/bin/sh
+#!/usr/bin/expect -f
 
 # # Create User
 # sudo useradd --no-create-home --shell /bin/false testUser
@@ -17,8 +17,6 @@
 # # Restart sshd service
 # sudo systemctl restart sshd
 
-
-#!/usr/bin/expect -f
 
 # Set the password variable
 set password "mypassword"
