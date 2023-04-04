@@ -11,6 +11,9 @@ sudo passwd testUser
 # Add user to sudo group
 sudo usermod -aG sudo testUser
 
+# Change default shell to bash
+sudo usermod -s /bin/bash testUser
+
 # Edit configuration file
 sudo mv $DIR/config /etc/ssh/sshd_config
 
