@@ -5,6 +5,9 @@ This script will create a new user called `serviceUser`. You can change this nam
 To use this project, follow the steps below:
 
 - Clone this Repository
+  ```
+  git clone https://github.com/Aahil13/NewUser-Script.git
+  ```
 - Navigate to the folder
   ```
    cd NewUser-Script/Ubuntu
