@@ -1,5 +1,6 @@
-<img align= "center" alt="Cover image" src="">
+![Group 3-readme](https://user-images.githubusercontent.com/63567230/229954103-2fac8096-aff5-4fd9-b899-51ab6bfb49cf.png)
 # Scriptify 👩🏿‍💻
+
 <div align="left">
 
 ![Bash](https://img.shields.io/badge/-Bash-blue) ![License](https://img.shields.io/badge/License-MIT-lightgrey) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
