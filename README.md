@@ -1,4 +1,4 @@
-# NewUser_Script.sh 👩🏿‍💻
+# Scriptify 👩🏿‍💻
 <div align="left">
 
 ![Bash](https://img.shields.io/badge/-Bash-blue) ![License](https://img.shields.io/badge/License-MIT-lightgrey) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
@@ -8,7 +8,7 @@
 
 Hello 👋🏿
 
-**NewUser_Script.sh simplifies the process of creating service users**
+**Scriptify simplifies the process of creating service users**
 
 This project contains Bash scripts that automates the process of creating users for various services such as `mongodb`, `nexus`, etc.
 
@@ -23,11 +23,11 @@ This project contains various folders for different Operating systems. To use th
 
 - Clone the Repository
   ```
-  git clone https://github.com/Aahil13/NewUser-Script.git
+  git clone https://github.com/Aahil13/Scriptify.git
   ```
 - Change directory to project and desired Operating system
   ```
-  cd NewUser-Script/<desired-folder>
+  cd Scriptify/<desired-folder>
   ```
 - Apply the steps stated at the desired project's README.md file
 

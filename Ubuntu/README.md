@@ -6,11 +6,11 @@ To use this project, follow the steps below:
 
 - Clone this Repository
   ```
-  git clone https://github.com/Aahil13/NewUser-Script.git
+  git clone https://github.com/Aahil13/Scriptify.git
   ```
 - Navigate to the folder
   ```
-   cd NewUser-Script/Ubuntu
+   cd Scriptify/Ubuntu
   ```
 - Run the script
   ```
