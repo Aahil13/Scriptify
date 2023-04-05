@@ -1,3 +1,4 @@
+<img align= "center" alt="Cover image" src="">
 # Scriptify 👩🏿‍💻
 <div align="left">
 
