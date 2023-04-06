@@ -1,4 +1,8 @@
-# How to use 🛠
+# Ubuntu
+
+This script is for the Ubuntu distribution of Linux the OS.  
+
+## How to use 🛠
 
 This script will create a new user called `serviceUser`. You can change this name to whatever service you want, and also alter it in the `config` file.
 
