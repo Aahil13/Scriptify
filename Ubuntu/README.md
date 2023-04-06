@@ -1,14 +1,14 @@
 # Ubuntu
 
-This script is for the Ubuntu distribution of Linux the OS.  
+This script is for the Ubuntu distribution of Linux.
 
 ## How to use 🛠
 
-This script will create a new user called `serviceUser`. You can change this name to whatever service you want, and also alter it in the `config` file.
+This script creates a new user called `serviceUser`. You can change this name to whatever service you want, and alter it in the `config` file.
 
 To use this project, follow the steps below:
 
-- Clone this Repository
+- Clone this repository
   ```
   git clone https://github.com/Aahil13/Scriptify.git
   ```
@@ -21,7 +21,7 @@ To use this project, follow the steps below:
   bash script.sh
   ```
 
-You can switch into the `serviceUser` using:
+You can switch to the `serviceUser` using:
 ```
 su - serviceUser
 ```
