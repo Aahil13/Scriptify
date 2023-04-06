@@ -29,7 +29,7 @@ This project contains various folders for different operating systems. To use th
     git clone https://github.com/Aahil13/Scriptify.git
     ```
 
-2. Change directory to project and desired operating system e.g `Ubuntu` directory
+2. Change directory to the desired folder inside the project
     ```
     cd Scriptify/<desired-folder>
     ```
