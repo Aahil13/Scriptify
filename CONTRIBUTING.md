@@ -26,8 +26,6 @@ We want to ensure that the codebase is maintainable, readable, and consistent ac
 
 Here are some additional guidelines to follow:
 
-- Use four spaces for indentation, not tabs.
-- Use double quotes for string interpolation, and single quotes for literals.
 - Use meaningful variable names and comments to make the code easy to understand.
 - Use functions to encapsulate reusable code blocks.
 - Use exit codes appropriately to signal success or failure of commands.
